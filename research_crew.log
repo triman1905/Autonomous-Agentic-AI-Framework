@@ -1,0 +1,79 @@
+2026-04-02 16:10:35,797 | INFO | ============================================================
+2026-04-02 16:10:35,798 | INFO | Starting research for: attention mechanisms in transformers
+2026-04-02 16:10:35,798 | INFO | ============================================================
+2026-04-02 16:10:36,890 | INFO | Initialising Planner Agent.
+2026-04-02 16:10:36,890 | INFO | Initialising Search Agent.
+2026-04-02 16:10:36,890 | INFO | Initialising Source Validator Agent.
+2026-04-02 16:10:36,890 | INFO | Initialising Evidence Extraction Agent.
+2026-04-02 16:10:36,890 | INFO | Initialising Research Synthesizer Agent.
+2026-04-02 16:10:36,909 | INFO | Running Crew pipeline...
+2026-04-02 16:10:38,829 | INFO | HTTP Request: POST https://app.crewai.com/crewai_plus/api/v1/tracing/ephemeral/batches "HTTP/1.1 201 Created"
+2026-04-02 16:10:42,108 | INFO | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-02 16:10:42,115 | INFO | OpenAI API usage: {'prompt_tokens': 441, 'completion_tokens': 78, 'total_tokens': 519, 'cached_prompt_tokens': 0}
+2026-04-02 16:10:42,143 | INFO | OpenAI: Successfully validated tool 'exa_academic_search'
+2026-04-02 16:10:42,144 | INFO | OpenAI: Successfully validated tool 'tavily_academic_search'
+2026-04-02 16:10:45,155 | INFO | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-02 16:10:47,423 | INFO | OpenAI: Successfully validated tool 'exa_academic_search'
+2026-04-02 16:10:47,423 | INFO | OpenAI: Successfully validated tool 'tavily_academic_search'
+2026-04-02 16:10:50,338 | INFO | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-02 16:11:04,716 | INFO | OpenAI: Successfully validated tool 'exa_academic_search'
+2026-04-02 16:11:04,716 | INFO | OpenAI: Successfully validated tool 'tavily_academic_search'
+2026-04-02 16:12:25,871 | INFO | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-02 16:12:26,131 | INFO | OpenAI API usage: {'prompt_tokens': 10104, 'completion_tokens': 7588, 'total_tokens': 17692, 'cached_prompt_tokens': 0}
+2026-04-02 16:12:34,847 | INFO | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-02 16:12:34,852 | INFO | OpenAI API usage: {'prompt_tokens': 8213, 'completion_tokens': 1032, 'total_tokens': 9245, 'cached_prompt_tokens': 0}
+2026-04-02 16:12:34,908 | INFO | OpenAI: Successfully validated tool 'pdf_text_extractor'
+2026-04-02 16:12:34,912 | INFO | OpenAI: Successfully validated tool 'webpage_text_parser'
+2026-04-02 16:12:38,845 | INFO | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-02 16:12:38,853 | INFO | Fetching webpage: https://papers.nips.cc/paper/7181-attention-is-all-you-need
+2026-04-02 16:12:38,856 | INFO | Fetching webpage: https://openreview.net/forum?id=qVyeW-grC2k
+2026-04-02 16:12:39,372 | INFO | Downloading PDF: http://arxiv.org/html/1706.03762
+2026-04-02 16:12:39,372 | INFO | Downloading PDF: https://arxiv.org/pdf/2210.07661
+2026-04-02 16:12:39,372 | INFO | Downloading PDF: https://arxiv.org/pdf/1911.02150
+2026-04-02 16:12:42,408 | INFO | Fetching webpage: https://openreview.net/forum?id=qVyeW-grC2k
+2026-04-02 16:12:45,048 | INFO | Parsed 1367 chars from https://papers.nips.cc/paper/7181-attention-is-all-you-need
+2026-04-02 16:12:45,048 | INFO | Extracted 9760 chars from 9 pages
+2026-04-02 16:12:45,067 | INFO | Extracted 9777 chars from 15 pages
+2026-04-02 16:12:47,616 | INFO | Fetching webpage: https://openreview.net/forum?id=qVyeW-grC2k
+2026-04-02 16:12:48,740 | INFO | OpenAI: Successfully validated tool 'pdf_text_extractor'
+2026-04-02 16:12:48,740 | INFO | OpenAI: Successfully validated tool 'webpage_text_parser'
+2026-04-02 16:12:57,589 | INFO | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-02 16:12:57,590 | INFO | OpenAI API usage: {'prompt_tokens': 7703, 'completion_tokens': 700, 'total_tokens': 8403, 'cached_prompt_tokens': 1792}
+2026-04-02 16:13:08,253 | INFO | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-02 16:13:08,268 | INFO | OpenAI API usage: {'prompt_tokens': 1439, 'completion_tokens': 781, 'total_tokens': 2220, 'cached_prompt_tokens': 0}
+2026-04-02 16:13:20,949 | INFO | HTTP Request: POST https://app.crewai.com/crewai_plus/api/v1/tracing/ephemeral/batches/5d0ac860-7af8-47c9-b270-2dbc8837fee7/events "HTTP/1.1 200 OK"
+2026-04-02 16:13:22,348 | INFO | HTTP Request: PATCH https://app.crewai.com/crewai_plus/api/v1/tracing/ephemeral/batches/5d0ac860-7af8-47c9-b270-2dbc8837fee7/finalize "HTTP/1.1 200 OK"
+2026-04-02 16:13:22,351 | INFO | Using config path: C:\Users\Sujal\.config\crewai\settings.json
+2026-04-02 18:54:56,428 | INFO | ============================================================
+2026-04-02 18:54:56,428 | INFO | Starting research for: attention mechanisms in transformers
+2026-04-02 18:54:56,437 | INFO | ============================================================
+2026-04-02 18:54:57,383 | INFO | Initialising Planner Agent.
+2026-04-02 18:54:57,383 | INFO | Initialising Search Agent.
+2026-04-02 18:54:57,383 | INFO | Initialising Source Validator Agent.
+2026-04-02 18:54:57,383 | INFO | Initialising Evidence Extraction Agent.
+2026-04-02 18:54:57,385 | INFO | Initialising Research Synthesizer Agent.
+2026-04-02 18:54:57,387 | INFO | Running Crew pipeline...
+2026-04-02 18:54:59,201 | INFO | HTTP Request: POST https://app.crewai.com/crewai_plus/api/v1/tracing/ephemeral/batches "HTTP/1.1 201 Created"
+2026-04-02 18:55:01,260 | INFO | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-02 18:55:01,269 | INFO | OpenAI API usage: {'prompt_tokens': 441, 'completion_tokens': 87, 'total_tokens': 528, 'cached_prompt_tokens': 0}
+2026-04-02 18:55:01,291 | INFO | OpenAI: Successfully validated tool 'exa_academic_search'
+2026-04-02 18:55:01,293 | INFO | OpenAI: Successfully validated tool 'tavily_academic_search'
+2026-04-02 18:55:03,961 | INFO | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-02 18:55:06,283 | INFO | OpenAI: Successfully validated tool 'exa_academic_search'
+2026-04-02 18:55:06,284 | INFO | OpenAI: Successfully validated tool 'tavily_academic_search'
+2026-04-02 18:55:09,455 | INFO | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-02 18:55:24,079 | INFO | OpenAI: Successfully validated tool 'exa_academic_search'
+2026-04-02 18:55:24,079 | INFO | OpenAI: Successfully validated tool 'tavily_academic_search'
+2026-04-02 18:55:25,753 | INFO | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-02 18:55:25,755 | INFO | OpenAI API usage: {'prompt_tokens': 10058, 'completion_tokens': 2, 'total_tokens': 10060, 'cached_prompt_tokens': 0}
+2026-04-02 18:55:27,729 | INFO | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-02 18:55:27,735 | INFO | OpenAI API usage: {'prompt_tokens': 627, 'completion_tokens': 8, 'total_tokens': 635, 'cached_prompt_tokens': 0}
+2026-04-02 18:55:27,766 | INFO | OpenAI: Successfully validated tool 'pdf_text_extractor'
+2026-04-02 18:55:27,767 | INFO | OpenAI: Successfully validated tool 'webpage_text_parser'
+2026-04-02 18:55:29,246 | INFO | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-02 18:55:29,246 | INFO | OpenAI API usage: {'prompt_tokens': 726, 'completion_tokens': 2, 'total_tokens': 728, 'cached_prompt_tokens': 0}
+2026-04-02 18:55:29,984 | INFO | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-02 18:55:29,992 | INFO | OpenAI API usage: {'prompt_tokens': 741, 'completion_tokens': 10, 'total_tokens': 751, 'cached_prompt_tokens': 0}
+2026-04-02 18:55:33,111 | INFO | HTTP Request: POST https://app.crewai.com/crewai_plus/api/v1/tracing/ephemeral/batches/628800e7-76e2-4a8f-8c6b-ba03891c04ed/events "HTTP/1.1 200 OK"
+2026-04-02 18:55:34,906 | INFO | HTTP Request: PATCH https://app.crewai.com/crewai_plus/api/v1/tracing/ephemeral/batches/628800e7-76e2-4a8f-8c6b-ba03891c04ed/finalize "HTTP/1.1 200 OK"
+2026-04-02 18:55:34,908 | INFO | Using config path: C:\Users\Sujal\.config\crewai\settings.json
