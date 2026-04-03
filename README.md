@@ -103,7 +103,7 @@ All agents communicate via **structured JSON only** — never raw documents.
 ### 1️⃣ Clone & install
 
 ```bash
-git clone <repo-url>
+git clone https://github.com/triman1905/Autonomous-Agentic-AI-Framework.git
 cd research_crew
 python -m venv .venv && .venv\Scripts\activate
 pip install -r requirements.txt
